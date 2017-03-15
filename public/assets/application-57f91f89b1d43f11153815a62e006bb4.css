@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Light.ttf"); }
+@font-face {
+  font-family: Pacifico;
+  src: url("Pacifico.ttf"); }
+@font-face {
+  font-family: Rock Salt;
+  src: url("RockSalt.ttf"); }
+@font-face {
+  font-family: Titillium Web;
+  src: url("TitilliumWeb-Regular.ttf"); }
+body {
+  font-family: "Titillium Web";
+  text-align: justify;
+  margin: 0; }
+
+.banner {
+  height: 250px;
+  background-image: url(../images/bg2.png);
+  background-position: right;
+  background-attachment: fixed;
+  box-shadow: 0px -5px 8px rgba(255, 0, 0, 0.4);
+  color: #ffffff;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px; }
+
+span {
+  font-family: "Rock Salt";
+  font-size: 50px; }
+
+.contents {
+  padding: 4% 15%;
+  background-image: url("../images/subtle.png");
+  border-radius: 10px;
+  transform: translateY(-30px); }
+
+.references {
+  position: fixed;
+  float: right; }
+
+.footer {
+  height: 150px;
+  background-color: #141719; }
